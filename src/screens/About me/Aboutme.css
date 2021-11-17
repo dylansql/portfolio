@@ -1,0 +1,39 @@
+.Aboutme {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    width: 100%;
+}
+
+.manipulate {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.Summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* #profile {
+    border-radius: 1000px;
+} */
+
+.img-tag {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.sum-title {
+    display: flex;
+    justify-content: center;
+}

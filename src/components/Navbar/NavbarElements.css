@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.all-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-links {
+    margin-right: 25px;
+}

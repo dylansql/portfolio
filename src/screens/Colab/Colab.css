@@ -1,0 +1,24 @@
+.Main-Container {
+    display: flex;
+    height: 95vh;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.problem-sum {
+    display: block;
+    justify-content: center;
+}
+
+.Solution-Sum {
+    display: block;
+    justify-content: center;
+}
+
+.stack-sum {
+
+}
