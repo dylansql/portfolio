@@ -1,28 +1,38 @@
-.main-Container{
-    display: flex;
+.main-container{
     height: 95vh;
     width: 100%;
     justify-content: center;
 }
 
-.title{
-
+.box {
+    display: block;
+    flex-direction: column;
 }
 
-.problem-sum{
+.title{
     display: flex;
+    justify-content: center;
+}
 
+.summary {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .site-pics{
     display: flex;
-
-}
-
-.summary{
-
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .stack-sum {
     display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    margin-left: 120px;
 }
