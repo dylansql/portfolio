@@ -1,0 +1,28 @@
+.main-Container{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.title{
+
+}
+
+.problem-sum{
+    display: flex;
+
+}
+
+.site-pics{
+    display: flex;
+
+}
+
+.summary{
+
+}
+
+.stack-sum {
+
+}
