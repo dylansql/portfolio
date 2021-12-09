@@ -19,7 +19,7 @@ export default function Work() {
             <Link to="/colab"><button>Co-Lab</button></Link>
             <Link to="/nightly"><button>Nightly</button></Link>
             <Link to="/thedocks"><button>The Docks</button></Link>
-            <Link to="/samplerewind"><button>Sample Rewind</button></Link>
+            <Link to="/samplerewind"><button>RECENT RECORDS</button></Link>
             </div>
         </div>
     )

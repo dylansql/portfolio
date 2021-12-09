@@ -1,0 +1,21 @@
+.main-container {
+height: 95vh;
+width: 100%;
+}
+
+.box {
+    display: block;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.prev-pics {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}

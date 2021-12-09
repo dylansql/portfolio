@@ -1,4 +1,6 @@
 import './SampleRewind.css'
+// import { Link } from 'react-router-dom'
+
 
 export default function SampleRewind() {
 
@@ -38,6 +40,10 @@ export default function SampleRewind() {
                         <li>JAVASCRIPT</li>
                         <li>CSS</li>
                     </ul>
+                    <div className="site-button">
+                        <button><a href="https://dylansql.github.io/Recent-Records/">Link to Site</a></button>
+                    </div>
+
                 </div>
             </div>
         </div>
