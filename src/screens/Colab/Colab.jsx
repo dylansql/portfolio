@@ -4,14 +4,28 @@ import './Colab.css'
 
 
 export default function Colab() {
+
+
     return (
-        <div className="Main-Container">
-            <div className="holder">
+        <div className="main-container">
+            <div className="box">
                 <div className="title">
-                    <h1>Co-lab</h1>
+                    <h1>Colab</h1>
                 </div>
-                <div className="problem-sum">
-                    <h1>Problem // Idea</h1>
+                <div className="pics">
+                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
+                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" style={{height: "200px", width:"350px"}}/>
+                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
+                </div>
+                <div className="summary-1">
+                    <h1>Summary</h1>
+                        <p> Using airtable, I created an api with enough seed data
+                             to visualize the concept I had for co-lab. </p>
+                        <p> Since I began the project I have learned new skills 
+                            that will take this to the project to the next level.
+                            Methods such as user authentification, user roles, and 
+                            private messaging is which I plan on implementing very soon.</p>
+                </div>
                     <p> CoLab is a passion  project that I plan 
                         to expand on in the next coming months.
                         CoLab is a application that allows users to 
@@ -26,21 +40,13 @@ export default function Colab() {
                             <li>In app service agreements</li>
                             <li>Social Platform management</li>
                         </ul>
-                </div>
-                <div className="Solution-Sum">
-                    <h1>Solution</h1>
-                    <p>Since I began the project I have learned new skills 
-                            that will take this to the project to the next level.
-                            Methods such as user authentification, user roles, and
-                             private messaging is what I plan on adding soon.</p>
-                </div>
-                <div className="stack-sum">
                     <h1>Stack Used</h1>
-                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637166288/clipart4409582_mxnjse.png" style={{height: "250px", width: "500px"}} />
-                </div>
+                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637166288/clipart4409582_mxnjse.png" style={{height: "150px", width: "300px"}} />
+                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "120px", width:"300px"}}/>
             </div>
-            <div className="github">
-            
+            <div className="work-links">
+                <button><a href="https://co-labs.netlify.app/">Link to Site</a></button>
+                <button><a href="https://github.com/dylansql">github</a></button>
             </div>
         </div>
     )

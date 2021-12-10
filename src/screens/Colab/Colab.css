@@ -1,24 +1,36 @@
-.Main-Container {
+.main-container{
     display: flex;
     height: 95vh;
 }
 
-.holder {
+.box {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;    
 }
 
-.problem-sum {
-    display: block;
-    justify-content: center;
+.pics {
+    display: flex;
+    justify-content: space-between;
 }
 
-.Solution-Sum {
-    display: block;
-    justify-content: center;
+.title{
+
+
+}
+
+.summary-1{
+
+}
+
+.summary{
+
 }
 
 .stack-sum {
+
+}
+
+.work-links {
 
 }

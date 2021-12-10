@@ -1,3 +1,35 @@
-.work-div {
-    
+.box{
+    display: flex;
+    height: 95vh;
+}
+
+.title {
+    display: center;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.btn-select {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.portal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+.portal a {
+    text-decoration: none;
+    color: black;
 }
