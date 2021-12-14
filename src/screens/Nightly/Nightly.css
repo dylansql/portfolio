@@ -21,7 +21,7 @@
 }
 
 .prev-pics {
-    margin-bottom: 6vh;
+    display: flex;
 }
 
 .pic {
