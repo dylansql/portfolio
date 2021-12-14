@@ -1,20 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
+
 
 .main-container {
     min-height: 120vh;
-    max-height: 150vh; 
+    height: 250vh;
+    max-height: 300vh;
     width: 100%;
+    background-color:#FFF0CE;
 }
 
-
+.box {
+    
+}
 
 .title {
     display: flex;
     justify-content: center;
-}
+} 
 
 .prev-pics {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex
+} 
+
+.summary {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.stack-sum {
+    display: block;
+    margin-bottom: 0px;
+    height: 50vh;
+} 
+
+.stacks {
+    display: block;
+    margin-bottom: 0px;
+} 
+
+#btn {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.work-link a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bakbak One', cursive;
+}
+
+.work-link button {
+    margin-top: 2vh;
+    background-color: #D55534;
+    border-style: none;
+    border-radius: 5px;
 }

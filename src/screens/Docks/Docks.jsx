@@ -1,10 +1,7 @@
 import './Docks.css'
-import Button from 'react-bootstrap/Button';
-
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
 
 export default function Docks() {
+
 
     return (
         <div className="main-container">
@@ -12,19 +9,24 @@ export default function Docks() {
                 <div className="title">
                     <h1>The Docks</h1>
                 </div>
-                <div className="prev-pics">
-                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
-                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" style={{height: "200px", width:"350px"}}/>
-                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
-                </div>
+                    <div className="prev-pics">
+                        <div className='pic'>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
+                        </div>
+                        <div className='pic'>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" style={{height: "200px", width:"350px"}}/>
+                        </div>
+                        <div className='pic'>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
+                        </div>
+                    </div>
                 <div className="summary">
                     <h1>Summary</h1>
                     <p> The Docks is an application that aimed 
                         to let people perform peer to peer renting. 
                         This application allows users to take items 
                         they do not use in the house and start an 
-                        online market where they are.
-                        </p>
+                        online market where they are.</p>
                         <h2>Team Role</h2>
                         <p>In this team project, My role included the following: 
                         <ul>
@@ -34,20 +36,26 @@ export default function Docks() {
                             <li>Assisted in project management ensuring the team was hitting their goals each day</li>
                         </ul>
                         </p>
-                </div>
+                    </div>
                 <div className="stack-sum">
                     <h1>Stack Used</h1>
-                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167417/pngegg_xd7333.png" style={{height: "125px", width:"375px"}}/>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style={{height: "125px", width:"400px"}}/>
-                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "150px", width:"350px"}}/>
-                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167264/kisspng-web-development-node-js-javascript-software-develo-node-js-icon-5b4aff47d622e1.0467371515316416718771_ottt8t.png" style={{height: "200px", width:"200px"}}/>
-                    <ul>
-                        <li>Mongo DB Backend</li>
-                        <li>Backend deployed via Heroku</li>
-                    </ul>
-                    <div className="site-button">
+                    <div className="stacks">
+                        <div className="stack">
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167417/pngegg_xd7333.png" style={{height: "100px", width:"350px"}}/>
+                        </div>
+                        <div className="stack">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style={{height: "100px", width:"375px"}}/>
+                        </div>
+                        <div className="stack">
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "100px", width:"300px"}}/>
+                        </div>
+                        <div className="stack">
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167264/kisspng-web-development-node-js-javascript-software-develo-node-js-icon-5b4aff47d622e1.0467371515316416718771_ottt8t.png" style={{height: "125px", width:"125px"}}/>
+                        </div>
+                    </div>
+                    <div className="works-link">
                         <button id="btn"><a href="https://thedocks.netlify.app">Link to Site</a></button>
-                        <button id="btn"><a href="https://thedocks.netlify.app">Link to Site</a></button>
+                        <button id="btn"><a href="https://github.com/dylansql/The-Dock">Link to Site</a></button>
                     </div>
                 </div>
             </div>
