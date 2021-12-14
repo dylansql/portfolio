@@ -35,22 +35,22 @@ export default function Work() {
                     <div class="carousel-item active">
                     <Link to="/nightly"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" class="d-block w-100" alt="NIGHTLY"/></Link>
                     <div class="carousel-caption d-none d-md-block">
-                            <h5 style={{color: "white"}}>Nightly</h5>
-                            <p style={{color: "white"}}>Open Source application that encourages users to share sleep/mediation advice</p>
+                            <h5 style={{color: "white", "font-family": 'Bakbak One'}}>Nightly</h5>
+                            <p style={{color: "white", "font-family": 'Bakbak One'}}>Open Source application that encourages users to share sleep/mediation advice</p>
                         </div>
                         </div>
                     <div class="carousel-item">
                     <Link to="/thedocks"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" class="d-block w-100" alt="The Docks"/></Link>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>The Docks</h5>
-                        <p>An application that aims to allow people to perform peer to peer renting.</p>
+                        <h5 style={{"font-family": 'Bakbak One'}}>The Docks</h5>
+                        <p style={{"font-family": 'Bakbak One'}}>An application that aims to allow people to perform peer to peer renting.</p>
                         </div>
                         </div>
                     <div class="carousel-item">
                     <Link to="/samplerewind"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966120/RECENT_RECORDS_mkopyd.jpg" class="d-block w-100" alt="RECENT RECORDS"/></Link>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>RECENT RECORDS</h5>
-                        <p>An application that allows users to type in their favorite artists and see a carousel of all of their most recent albums.</p>
+                        <h5 style={{"font-family": 'Bakbak One'}}>RECENT RECORDS</h5>
+                        <p style={{"font-family": 'Bakbak One'}}>An application that allows users to type in their favorite artists and see a carousel of all of their most recent albums.</p>
                             </div>
                             </div>
                         </div>
