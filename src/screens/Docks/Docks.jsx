@@ -42,12 +42,12 @@ export default function Docks() {
                     <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "150px", width:"350px"}}/>
                     <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167264/kisspng-web-development-node-js-javascript-software-develo-node-js-icon-5b4aff47d622e1.0467371515316416718771_ottt8t.png" style={{height: "200px", width:"200px"}}/>
                     <ul>
-                        <li>Heroku Frontend</li>
                         <li>Mongo DB Backend</li>
+                        <li>Backend deployed via Heroku</li>
                     </ul>
                     <div className="site-button">
-                        <button><a href="https://thedocks.netlify.app">Link to Site</a></button>
-                        
+                        <button id="btn"><a href="https://thedocks.netlify.app">Link to Site</a></button>
+                        <button id="btn"><a href="https://thedocks.netlify.app">Link to Site</a></button>
                     </div>
                 </div>
             </div>
