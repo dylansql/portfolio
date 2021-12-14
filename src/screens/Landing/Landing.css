@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
 .Landing {
     display: flex;
     height: 95vh;
     align-items: center;
     justify-content: center;
+    background-color: #FFF0CE;
 }
 
 .intro-page {
     display: block;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 15px;
 }
 
-.typer {
-    font-size: 20px;
+
+.secret-message {
+    padding: 20px;
+    border-style: solid;
+    border-radius: 15px;
+    font-family: 'Permanent Marker', cursive;
 }

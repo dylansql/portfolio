@@ -31,7 +31,7 @@ const Navbar = () => {
                     <Link to="/">Place Holder</Link>
                 </div> */}
                     <div className="logo-links">
-                    <a href="https://twitter.com/dylansqll"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFzDoUTxXStvqtcsyi3S9e1oSVliP53ZS6w&usqp=CAU" style={{height: "25px", width: "25px"}} /></a>
+                    <a href="https://twitter.com/dylansqll"><img src="https://www.pinclipart.com/picdir/big/578-5789236_twitter-clipart.png" style={{height: "25px", width: "30px"}} /></a>
                     </div>
                 </div>
             </nav>

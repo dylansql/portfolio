@@ -1,9 +1,20 @@
-.box{
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
+.work-div {
     display: flex;
     height: 95vh;
+    background-color: #FFF0CE; 
+    width: 100%;
 }
 
+/* .box{
+    display: flex;
+    height: 95vh;
+} */
+
 .title {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     display: center;
     justify-content: center;
 }

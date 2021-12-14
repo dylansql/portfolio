@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
+
 nav {
     display: flex;
-    background-color: black;
-    height: 50px;
+    background-color: #83B4B3;
+    height: 70px;
 }
 
 nav a {
-    color: white;
+    color: #FFF0CE;
     text-decoration: none;
-    text-decoration-color: white;
+    font-family: 'Bakbak One', cursive;
+    font-size: large;
 }
 
 .all-links {
