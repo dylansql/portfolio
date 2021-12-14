@@ -4,12 +4,12 @@ export default function Docks() {
 
 
     return (
-        <div className="main-container">
-            <div className="box">
-                <div className="title">
+        <div className="mainn-container">
+            <div className="boxx">
+                <div className="titlee">
                     <h1>The Docks</h1>
                 </div>
-                    <div className="prev-pics">
+                    <div className="prev-picss">
                         <div className='pic'>
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
                         </div>

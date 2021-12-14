@@ -2,30 +2,34 @@
 
 
 
-.main-container {
-    min-height: 120vh;
-    height: 250vh;
-    max-height: 300vh;
+.mainn-container {
+    min-height: 150vh;
+    max-height: 200vh;
     width: 100%;
     background-color:#FFF0CE;
+    font-family: 'Bakbak One', cursive;
 }
 
-.box {
-    
+
+.boxx {
+   display: block; 
 }
 
-.title {
+
+.titlee {
     display: flex;
     justify-content: center;
 } 
 
-.prev-pics {
-    display: flex
+.prev-picss {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
 } 
 
 .summary {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .stack-sum {
@@ -43,6 +47,8 @@
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 }
 
 .work-link a {
@@ -52,7 +58,7 @@
 }
 
 .work-link button {
-    margin-top: 2vh;
+    margin-top: 3vh;
     background-color: #D55534;
     border-style: none;
     border-radius: 5px;
