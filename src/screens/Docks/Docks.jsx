@@ -20,7 +20,7 @@ export default function Docks() {
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
                         </div>
                     </div>
-                <div className="summary">
+                <div className="Doc-summ">
                     <h1>Summary</h1>
                     <p> The Docks is an application that aimed 
                         to let people perform peer to peer renting. 
@@ -37,7 +37,7 @@ export default function Docks() {
                         </ul>
                         </p>
                     </div>
-                <div className="stack-sum">
+                <div className="Doc-stack-sum">
                     <h1>Stack Used</h1>
                     <div className="stacks">
                         <div className="stack">

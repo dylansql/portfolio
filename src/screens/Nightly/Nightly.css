@@ -1,28 +1,29 @@
  @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
 
 
-
-
 .main-container {
+    display: flex;
+    justify-content: center;
     min-height: 120vh;
     max-height: 150vh;
     width: 100%;
     background-color:#FFF0CE;
-    bottom: 0px;
     font-family: 'Bakbak One', cursive;
 }
 
 .box {
+    display: block;
+}
+.prev-pics {
     display: flex;
+    justify-content: center;
 }
 
 .title {
-    margin-top:5vh;
+    display: flex;
+    justify-content: center;
 }
 
-.prev-pics {
-    display: flex;
-}
 
 .pic {
     margin-left: 2vw;

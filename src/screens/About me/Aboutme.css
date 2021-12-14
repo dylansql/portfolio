@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
+
 .Aboutme {
     display: flex;
     justify-content: center;
     height: 95vh;
     width: 100%;
+    background-color: #FFF0CE;
 }
 
 .manipulate {
@@ -31,9 +35,17 @@
     justify-content: center;
     margin-left: 15vw;
     margin-right: 15vw;
+    font-family: 'Bakbak One', cursive;
 }
 
 .sum-title {
     display: flex;
     justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-family: 'Bakbak One', cursive;
+}
+
+.img-tag img {
+    border-radius: 50px;
 }

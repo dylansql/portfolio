@@ -32,9 +32,10 @@
 
 .btn-select {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
+
 .portal {
     display: flex;
     flex-direction: column;
