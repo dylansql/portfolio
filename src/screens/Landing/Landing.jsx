@@ -1,12 +1,13 @@
 import './Landing.css'
 import Typewriter from 'typewriter-effect'
 import bootstrap from 'bootstrap'
+import { Link } from 'react-router-dom'
 
 
 export default function Landing() {
     return (
         <div className="Landing">
-            
+            <div>
             <div className="intro-page">
                 <h1>Hi. Im Dylan!</h1>
                 <h1>Full Stack Engineer</h1>
@@ -31,13 +32,19 @@ export default function Landing() {
                 }}
                 />
                 </p>
+            </div>
+                <div className='links'>
+                    <Link to="/work">
+                    <button type="button" class="btn btn-danger" style={{background: "#D55534"}}>my work</button>
+                    </Link>
+                    <a href="https://github.com/dylansql">
+                    <button type="button" class="btn btn-danger" style={{background: "#D55534"}}>github</button>
+                    </a>
+                    <a href="https://twitter.com/dylansqll">
+                    <button type="button" class="btn btn-danger" style={{background: "#D55534"}}>social</button>
+                    </a>
                 </div>
-                {/* <div className='secret-message'>
-                    <h2>This will be a secret message.</h2>
-                    <h2>There will be more to this.</h2>
-                    <p class="h2">Quixk message</p>
-                </div> */}
-
+            </div>
         </div>
     )
 }

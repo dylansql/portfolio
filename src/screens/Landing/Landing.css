@@ -17,6 +17,17 @@
     border-radius: 15px;
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    color: #D55534;
+    font-family: 'Bakbak One', cursive;
+}
+
+.links a {
+    color: #D55534;
+}
 
 .secret-message {
     padding: 20px;

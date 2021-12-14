@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
+
 
 .work-div {
     display: flex;
@@ -17,6 +20,7 @@
     margin-bottom: 5vh;
     display: center;
     justify-content: center;
+    font-family: 'Bakbak One', cursive;
 }
 
 .btn-group {
