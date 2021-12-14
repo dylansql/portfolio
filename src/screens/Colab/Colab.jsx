@@ -1,7 +1,7 @@
 import './Colab.css'
 
 // import { Link, Route, Routes } from 'react-router-dom'
-
+import Button from 'react-bootstrap/Button';
 
 export default function Colab() {
 
