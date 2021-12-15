@@ -8,13 +8,13 @@ export default function Nightly() {
                     <h1>Nightly</h1>
                 </div>
                 <div className="prev-pics">
-                    <div className="pic">
+                    <div id="nightly-pic-1" className="pic">
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/Listing_cwrsni.jpg" style={{height: "200px", width:"350px"}}/>
                     </div>
-                    <div className="pic">
+                    <div id="nightly-pic-2" className="pic">
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" style={{height: "200px", width:"350px"}}/>
                     </div>
-                    <div className="pic">
+                    <div id="nightly-pic-3" className="pic">
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/Help_mi74rk.jpg" style={{height: "200px", width:"350px"}}/>
                     </div>
                     </div>

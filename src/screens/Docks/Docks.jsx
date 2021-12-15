@@ -10,13 +10,13 @@ export default function Docks() {
                     <h1>The Docks</h1>
                 </div>
                     <div className="prev-picss">
-                        <div className='pic'>
+                        <div id="docks-pic-1" className='pic'>
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
                         </div>
-                        <div className='pic'>
+                        <div id="docks-pic-2" className='pic'>
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" style={{height: "200px", width:"350px"}}/>
                         </div>
-                        <div className='pic'>
+                        <div id="docks-pic-3" className='pic'>
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
                         </div>
                     </div>

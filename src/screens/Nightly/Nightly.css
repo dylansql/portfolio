@@ -69,10 +69,17 @@
   
     .main-container {
         height: 95vh;
-        min-height: 230vh;
+        min-height: 180vh;
     }
     
-    
+    #nightly-pic-1 {
+        display: none;
+    }
+
+    #nightly-pic-3 {
+        display: none;
+    }
+
     .prev-pics {
         display: flex;
         flex-wrap: wrap;

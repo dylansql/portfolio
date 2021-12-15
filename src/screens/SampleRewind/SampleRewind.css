@@ -3,7 +3,7 @@
     height: 95vh;
     width: 100%;
     min-height: 120vh;
-    max-height: 150vh;
+    max-height: 220vh;
     background-color:#FFF0CE;
     font-family: 'Bakbak One', cursive;
 }
@@ -35,7 +35,6 @@
     flex-direction: column;
 }
 
-
 .preview-pics {
     display: flex;
     margin-top: 3vh;
@@ -56,6 +55,47 @@
 .stack-group-pics {
     display: flex;
     margin-top: 3vh;
+    margin-left: 10vw;
 }
 
+.work-link {
+    margin-left: 10vw;
+}
 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+      .box-1 {
+          display: flex;
+          height: 180vh;
+          width: 100%;
+      }
+      /* .box-2 {
+          display: block;
+      } */
+      .RRsummary {
+        display: block;
+        justify-content: center;
+        margin-top: 3vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+      .RR-stack-sum {
+        display: block;
+        margin-top: 3vh;
+        margin-left: 2vw;
+    }
+      #pic-1 {
+          display: none;
+      }
+      #pic-3 {
+          display: none;
+      }
+      .stack-group-pics {
+          display: flex;
+          flex-direction: column;
+      }
+  }

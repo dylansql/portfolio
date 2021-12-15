@@ -73,7 +73,7 @@
       .mainn-container {
         display: flex;
         height: 250vh;
-        max-height: 240vh;
+        max-height: 180vh;
       }
       .prev-picss {
           display: flex;
@@ -90,5 +90,13 @@
       #btn {
           margin-top: 2vh;
           margin-bottom: 2vh;
+      }
+
+      #docks-pic-2 {
+          display: none;
+      }
+
+      #docks-pic-3 {
+          display: none;
       }
   }
