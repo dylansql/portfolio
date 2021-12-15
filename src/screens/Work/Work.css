@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Kanit:wght@100&family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
-
-
 
 .work-div {
     display: flex;
@@ -18,7 +15,7 @@
 .title {
     margin-top: 5vh;
     margin-bottom: 5vh;
-    display: center;
+    display: flex;
     justify-content: center;
     font-family: 'Bakbak One', cursive;
 }
@@ -48,4 +45,50 @@
 .portal a {
     text-decoration: none;
     color: black;
+}
+
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .work-div {
+        height: 95vh;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn-select {
+        display: flex;
+        justify-content: flex-start;
+        position: static;
+    }
+
+    .title {
+        
+    }
+    
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        min-height: 400px;
+        min-width: 350px;
+    }
+    
+    
+    .portal {
+        
+    
+    }
+    
+    .portal a {
+        
+    }
+    
 }

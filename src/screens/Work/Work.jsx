@@ -4,8 +4,6 @@ import './Work.css'
 export default function Work() {
 
 
-
-
     return (
         <div className="work-div">
             <div className="box">
@@ -15,20 +13,20 @@ export default function Work() {
                 <div className='btn-group'>
                     <div className="btn-select">
                         <div className="presentation">
-                        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                        <div class="carousel-inner">
+                            <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                    <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <Link to="/nightly"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" class="d-block w-100" alt="NIGHTLY"/></Link>
+                            <Link to="/nightly"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" class="d-block w-100" alt="NIGHTLY"/></Link>
                         <div class="carousel-caption d-none d-md-block">
-                                <h5 style={{color: "white", "font-family": 'Bakbak One'}}>Nightly</h5>
-                                <p style={{color: "white", "font-family": 'Bakbak One'}}>Open Source application that encourages users to share sleep/mediation advice</p>
-                            </div>
-                            </div>
+                            <h5 style={{color: "white", "font-family": 'Bakbak One'}}>Nightly</h5>
+                            <p style={{color: "white", "font-family": 'Bakbak One'}}>Open Source application that encourages users to share sleep/mediation advice</p>
+                        </div>
+                        </div>
                         <div class="carousel-item">
                         <Link to="/thedocks"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" class="d-block w-100" alt="The Docks"/></Link>
                         <div class="carousel-caption d-none d-md-block">
