@@ -64,3 +64,31 @@
     border-style: none;
     border-radius: 5px;
 }
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+      .mainn-container {
+        display: flex;
+        height: 250vh;
+        max-height: 240vh;
+      }
+      .prev-picss {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 3vh;
+      }
+      .boxx {
+        
+      }
+      .pic {
+          margin-top: 2vh;
+          margin-bottom: 2vh;
+      }
+      #btn {
+          margin-top: 2vh;
+          margin-bottom: 2vh;
+      }
+  }

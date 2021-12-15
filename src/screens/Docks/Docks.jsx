@@ -54,8 +54,8 @@ export default function Docks() {
                         </div>
                     </div>
                     <div className="works-link">
-                        <button id="btn"><a href="https://thedocks.netlify.app">Link to Site</a></button>
-                        <button id="btn"><a href="https://github.com/dylansql/The-Dock">Link to Site</a></button>
+                        <button id="btn"><a href="https://thedocks.netlify.app">site</a></button>
+                        <button id="btn"><a href="https://github.com/dylansql/The-Dock">github</a></button>
                     </div>
                 </div>
             </div>
