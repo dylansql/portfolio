@@ -35,13 +35,16 @@ export default function Landing() {
             </div>
                 <div className='links'>
                     <Link to="/work">
-                    <button type="button" class="btn btn-danger" style={{background: "#D55534"}}>my work</button>
+                    <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>my work</button>
                     </Link>
                     <a href="https://github.com/dylansql">
-                    <button type="button" class="btn btn-danger" style={{background: "#D55534"}}>github</button>
+                    <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>github</button>
                     </a>
                     <a href="https://twitter.com/dylansqll">
-                    <button type="button" class="btn btn-danger" style={{background: "#D55534"}}>social</button>
+                    <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>social</button>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1zLh1lyi6w3R9ZKdXkOI6ja6yvgkx1ydh/view?usp=sharing">
+                    <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>resume</button>
                     </a>
                 </div>
             </div>
