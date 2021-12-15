@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './NavbarElements.css'
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link to="/">Place Holder</Link>
                 </div> */}
                     <div className="logo-links">
-                    <a href="https://twitter.com/dylansqll"><img src="https://www.pinclipart.com/picdir/big/578-5789236_twitter-clipart.png" style={{height: "25px", width: "30px"}} /></a>
+                    <a href="https://twitter.com/dylansqll"><img src="https://www.pinclipart.com/picdir/big/578-5789236_twitter-clipart.png" alt="twitter-logo" style={{height: "25px", width: "30px"}} /></a>
                     </div>
                 </div>
             </nav>

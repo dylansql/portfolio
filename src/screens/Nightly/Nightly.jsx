@@ -9,13 +9,13 @@ export default function Nightly() {
                 </div>
                 <div className="prev-pics">
                     <div id="nightly-pic-1" className="pic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/Listing_cwrsni.jpg" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/Listing_cwrsni.jpg" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
                     </div>
                     <div id="nightly-pic-2" className="pic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
                     </div>
                     <div id="nightly-pic-3" className="pic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/Help_mi74rk.jpg" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/Help_mi74rk.jpg" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
                     </div>
                     </div>
                 <div className="summary">
@@ -44,10 +44,10 @@ export default function Nightly() {
                         </ul>
                     </div>
                     <div className="top-pics">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639145148/pngwing.com_do2dyw.png" style={{height: "200px", width:"200px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639145148/pngwing.com_do2dyw.png" alt="stack-screenshot" style={{height: "200px", width:"200px"}}/>
                         {/* <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style={{height: "125px", width:"400px"}}/> */}
-                        <img src="https://download.logo.wine/logo/Ruby_on_Rails/Ruby_on_Rails-Logo.wine.png" style={{height: "200px", width:"300px"}}/>
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "150px", width:"350px"}}/>
+                        <img src="https://download.logo.wine/logo/Ruby_on_Rails/Ruby_on_Rails-Logo.wine.png" alt="stack-screenshot" style={{height: "200px", width:"300px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" alt="tech-screenshot" style={{height: "150px", width:"350px"}}/>
                     </div>
                         <div className='work-link'>
                             <button id="btn"><a href="https://nightlyy.netlify.app/">site</a></button>

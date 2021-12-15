@@ -1,6 +1,5 @@
 import './Landing.css'
 import Typewriter from 'typewriter-effect'
-import bootstrap from 'bootstrap'
 import { Link } from 'react-router-dom'
 
 

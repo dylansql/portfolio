@@ -13,13 +13,13 @@ export default function SampleRewind() {
                 </div>
                     <div className="preview-pics">
                         <div id="pic-1" className="RRpic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966129/RECENT_RECORDS_ASSETS_ib3fkn.jpg" style={{height: "200px", width:"300px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966129/RECENT_RECORDS_ASSETS_ib3fkn.jpg" alt="recentrec-screenshot" style={{height: "200px", width:"300px"}}/>
                         </div>
                         <div id="pic-2"className="RRpic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966120/RECENT_RECORDS_mkopyd.jpg" style={{height: "200px", width:"300px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966120/RECENT_RECORDS_mkopyd.jpg" alt="recentrec-screenshot" style={{height: "200px", width:"300px"}}/>
                         </div>
                         <div id="pic-3" className="RRpic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966145/RECENT_RECORDS_ASSETS_2_wtaf1c.jpg" style={{height: "200px", width:"300px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638966145/RECENT_RECORDS_ASSETS_2_wtaf1c.jpg" alt="recentrec-screenshot" style={{height: "200px", width:"300px"}}/>
                         </div>
                     </div>
                     <div className="RRsummary">
@@ -39,13 +39,13 @@ export default function SampleRewind() {
                 </div>
                     <div className="stack-group-pics">
                         <div className="stack-pic">
-                            <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167005/clipart1657333_yldaee.png" style={{height: "200px", width:"200px"}}/>
+                            <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167005/clipart1657333_yldaee.png" alt="recentrec-stack" style={{height: "200px", width:"200px"}}/>
                         </div>
                         <div className="stack-pic">
-                            <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167107/javascript-icon-png-13_fstq0e.png" style={{height: "200px", width:"200px"}}/>
+                            <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167107/javascript-icon-png-13_fstq0e.png" alt="recentrec-stack" style={{height: "200px", width:"200px"}}/>
                         </div>
                         <div className="stack-pic">
-                            <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637166901/clipart2022336_th8oo2.png" style={{height: "200px", width:"200px"}}/>
+                            <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637166901/clipart2022336_th8oo2.png" alt="recentrec-stack" style={{height: "200px", width:"200px"}}/>
                         </div>
                         <ul>
                             <li>HTML</li>

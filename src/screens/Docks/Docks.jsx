@@ -11,13 +11,13 @@ export default function Docks() {
                 </div>
                     <div className="prev-picss">
                         <div id="docks-pic-1" className='pic'>
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" alt="dock-screenshot" style={{height: "200px", width:"350px"}}/>
                         </div>
                         <div id="docks-pic-2" className='pic'>
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" alt="dock-screenshot" style={{height: "200px", width:"350px"}}/>
                         </div>
                         <div id="docks-pic-3" className='pic'>
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" alt="dock-screenshot" style={{height: "200px", width:"350px"}}/>
                         </div>
                     </div>
                 <div className="Doc-summ">
@@ -41,16 +41,16 @@ export default function Docks() {
                     <h1>Stack Used</h1>
                     <div className="stacks">
                         <div className="stack">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167417/pngegg_xd7333.png" style={{height: "100px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167417/pngegg_xd7333.png" alt="tech-stack" style={{height: "100px", width:"350px"}}/>
                         </div>
                         <div className="stack">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style={{height: "100px", width:"375px"}}/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="tech-stack" style={{height: "100px", width:"375px"}}/>
                         </div>
                         <div className="stack">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "100px", width:"300px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" alt="tech-stack" style={{height: "100px", width:"300px"}}/>
                         </div>
                         <div className="stack">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167264/kisspng-web-development-node-js-javascript-software-develo-node-js-icon-5b4aff47d622e1.0467371515316416718771_ottt8t.png" style={{height: "125px", width:"125px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637167264/kisspng-web-development-node-js-javascript-software-develo-node-js-icon-5b4aff47d622e1.0467371515316416718771_ottt8t.png" alt="tech-stack" style={{height: "125px", width:"125px"}}/>
                         </div>
                     </div>
                     <div className="works-link">

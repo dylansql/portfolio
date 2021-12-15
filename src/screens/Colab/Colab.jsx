@@ -1,7 +1,6 @@
 import './Colab.css'
 
 // import { Link, Route, Routes } from 'react-router-dom'
-import Button from 'react-bootstrap/Button';
 
 export default function Colab() {
 
@@ -13,9 +12,9 @@ export default function Colab() {
                     <h1>Colab</h1>
                 </div>
                 <div className="pics">
-                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" style={{height: "200px", width:"350px"}}/>
-                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" style={{height: "200px", width:"350px"}}/>
-                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" style={{height: "200px", width:"350px"}}/>
+                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_f89j7x.jpg" alt="co-lab-pictures" style={{height: "200px", width:"350px"}}/>
+                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_2_qzw9bv.jpg" alt="co-lab-pictures" style={{height: "200px", width:"350px"}}/>
+                <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638984194/The_Docks_Assets_3_rhkjku.jpg" alt="co-lab-pictures" style={{height: "200px", width:"350px"}}/>
                 </div>
                 <div className="summary-1">
                     <h1>Summary</h1>
@@ -41,8 +40,8 @@ export default function Colab() {
                             <li>Social Platform management</li>
                         </ul>
                     <h1>Stack Used</h1>
-                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637166288/clipart4409582_mxnjse.png" style={{height: "150px", width: "300px"}} />
-                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" style={{height: "120px", width:"300px"}}/>
+                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1637166288/clipart4409582_mxnjse.png" alt="stack-logo" style={{height: "150px", width: "300px"}} />
+                    <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" alt="react-logo" style={{height: "120px", width:"300px"}}/>
             </div>
             <div className="work-links">
                 <button><a href="https://co-labs.netlify.app/">Link to Site</a></button>
