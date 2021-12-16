@@ -11,7 +11,7 @@ export default function Tools() {
         <div className="toolbox">
             <div className="toolbox-holder">
                 <div className="titlescreen">
-                    <h1 id="title">What can I do?</h1>
+                    <h1 id="title">What do I do?</h1>
                 </div>
                 <div className="skills">
                     <h1>Skills :</h1>
