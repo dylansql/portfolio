@@ -49,10 +49,14 @@
     }
     .links {
         display: flex;
-        margin-top: 2vh;
+        margin-bottom: 10vh;
     }
     #landing-button {
         margin-left: 1vw;
         margin-right: 1vw;
+    }
+
+    .intro-page {
+        margin-bottom: 12vh;
     }
 }

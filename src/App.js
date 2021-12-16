@@ -8,6 +8,8 @@ import Colab from './screens/Colab/Colab';
 import Nightly from './screens/Nightly/Nightly';
 import Docks from './screens/Docks/Docks';
 import SampleRewind from './screens/SampleRewind/SampleRewind';
+import Tools from './screens/Tools/Tools'
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path="/nightly" element={<Nightly />}></Route>
           <Route path="/thedocks" element={<Docks />}></Route>
           <Route path="/samplerewind" element={<SampleRewind />}></Route>
+          <Route path="/tools" element={<Tools />}></Route>
       </Routes>
     </div>
   );

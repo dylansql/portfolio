@@ -33,8 +33,8 @@ export default function Landing() {
                 </p>
             </div>
                 <div className='links'>
-                    <Link to="/work">
-                    <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>my work</button>
+                    <Link to="/tools">
+                    <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>tools</button>
                     </Link>
                     <a href="https://github.com/dylansql">
                     <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>github</button>

@@ -1,0 +1,47 @@
+.toolbox {
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    background-color: #FFF0CE;
+}
+
+.toolbox-holder {
+    display: block;
+    width: 100%;
+}
+
+.titlescreen {
+    display: block;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+    border-bottom: solid;
+}
+
+#title {
+    margin-bottom: 2vh;
+}
+
+.skills{
+    display: block;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-bottom: solid;
+}
+
+.languages {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    margin-right: 3vw; 
+    border-bottom: solid; 
+}
+
+.frameworks {
+    display: block;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    margin-right: 3vw; 
+}
