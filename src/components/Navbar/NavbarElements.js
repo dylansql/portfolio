@@ -1,8 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './NavbarElements.css'
+import ButtonMailto from './mailto'
+
 
 const Navbar = () => {
+
+
+
+
+
+
     return (
         <>
             <nav> 
@@ -24,8 +32,8 @@ const Navbar = () => {
                         </NavLink>
                         </div>
                         <div className="link">
-                        <NavLink to="/contact" activeStyle>
-                            Contact
+                        <NavLink to="/" activeStyle>
+                            <ButtonMailto label="Contact" mailto="mailto:dylanbogerr@outlook.com">Contact</ButtonMailto>
                         </NavLink>
                         </div>
                         {/* <NavLink to="/freelance" activeStyle>
