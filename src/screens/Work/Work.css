@@ -92,3 +92,40 @@
     }
     
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .work-div {
+        height: 95vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn-select {
+        display: flex;
+        justify-content: flex-start;
+        position: static;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        min-height: 500px;
+        min-width: 400px;
+    }
+
+
+    .title {
+        margin-top: 8vh;
+    }
+    
+  }
