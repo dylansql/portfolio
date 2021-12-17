@@ -36,13 +36,13 @@ export default function Landing() {
                     <Link to="/tools">
                     <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>tools</button>
                     </Link>
-                    <a href="https://github.com/dylansql">
+                    <a target="_blank" href="https://github.com/dylansql">
                     <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>github</button>
                     </a>
-                    <a href="https://twitter.com/dylansqll">
+                    <a target="_blank" href="https://twitter.com/dylansqll">
                     <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>social</button>
                     </a>
-                    <a href="https://drive.google.com/drive/folders/1P7o2sIYxjA5_HINynq1hnn31s0XIrdfV?usp=sharing">
+                    <a target="_blank" href="https://www.canva.com/design/DAEslC6dR78/u-6XIZvgMrTG9nHNOt3uMQ/view?utm_content=DAEslC6dR78&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
                     <button id="landing-button" type="button" class="btn btn-danger" style={{background: "#D55534"}}>resume</button>
                     </a>
                 </div>
