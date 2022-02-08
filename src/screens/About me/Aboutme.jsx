@@ -12,14 +12,12 @@ export default function Aboutme() {
                     <h1>About Me</h1>
                     </div>
                     <div className="paragraph">
-                    <p>An Atlanta based full-stack developer with a 
-                    background in music and customer-service. I 
-                    believe my success comes from my ability to 
-                    be flexible within the workplace once having 
-                    a solid foundation. Investing emotional labor 
-                    and not skill alone, I am able to bring the 
-                    best out of my team members becoming a problem
-                    seeker instead of a problem solver.</p>
+                    <p>An Atlanta raised full-stack developer with a background
+                         in music and customer service. As a quick learner, my 
+                         success comes from my ability to be flexible in the workplace. 
+                         Investing both emotional labor and technical skill, I am able to 
+                         bring the best out of my team members. I am proactive in seeking 
+                         out problems and strive to solve them quickly and efficiently.</p>
                     </div>
                  </div>
             </div>

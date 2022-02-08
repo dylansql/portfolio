@@ -1,28 +1,26 @@
-import './Nightly.css'
+import './portfolio.css'
 
-export default function Nightly() {
+export default function Portfolio() {
     return (
         <div className="main-container">
             <div className="box">
                 <div className="title">
-                    <h1>Nightly</h1>
+                    <h1>Portfolio</h1>
                 </div>
                 <div className="prev-pics">
                     <div id="nightly-pic-1" className="pic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644334703/Pasted_Graphic_1_pdutw8.png" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644335607/Projects_pvyg5e.png" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
                     </div>
                     <div id="nightly-pic-2" className="pic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644334692/Pasted_Graphic_oswg85.png" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644335627/Hi._Im_Dylan_htxcch.png" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
                     </div>
                     <div id="nightly-pic-3" className="pic">
-                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644334711/Pasted_Graphic_2_ox3xgs.png" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
+                        <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644335620/About_Me_xbhikt.png" alt="nightly-screenshot" style={{height: "200px", width:"350px"}}/>
                     </div>
                     </div>
                 <div className="summary">
                     <h1>Summary</h1>
-                    <p> Nightly is an online forum where people 
-                        can find sources from others in the community 
-                        who have a hard time sleeping. 
+                    <p> This portfolio highlights a few projects that I found to be very pivotal in my development career. 
                         {/* </p>
                         <h2>Team Role</h2>
                         <p>In this team project, My role included the following: 
@@ -40,19 +38,18 @@ export default function Nightly() {
                         <ul>
                         <li>Deployed via Netflify</li>
                         <li>React Frontend</li>
-                        <li>Ruby on Rails Backend</li>
-                        <li>Socket.io</li>
+                        <li>BootStrap</li>
                         </ul>
                     </div>
-                    <div className="top-pics">
+                    {/* <div className="top-pics">
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639145148/pngwing.com_do2dyw.png" alt="stack-screenshot" style={{height: "200px", width:"200px"}}/>
-                        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style={{height: "125px", width:"400px"}}/> */}
+                        
                         <img src="https://download.logo.wine/logo/Ruby_on_Rails/Ruby_on_Rails-Logo.wine.png" alt="stack-screenshot" style={{height: "200px", width:"300px"}}/>
                         <img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1638987762/toppng.com-react-logo-396x134_h7anmj.png" alt="tech-screenshot" style={{height: "150px", width:"350px"}}/>
-                    </div>
+                    </div> */}
                         <div className='work-link'>
-                            <button id="btn"><a href="https://nightlyy.netlify.app/">site</a></button>
-                            <button id="btn"><a href="https://github.com/dylansql/Nightly">github</a></button>
+                            <button id="btn"><a href="https://dylansql.netlify.app/" target='_blank' >site</a></button>
+                            <button id="btn"><a href="https://github.com/dylansql/portfolio" target='_blank'>github</a></button>
                         </div>
                 </div>
             </div>

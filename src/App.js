@@ -9,6 +9,7 @@ import Nightly from './screens/Nightly/Nightly';
 import Docks from './screens/Docks/Docks';
 import SampleRewind from './screens/SampleRewind/SampleRewind';
 import Tools from './screens/Tools/Tools'
+import Portfolio from './screens/Portfolio/Portfolio';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/thedocks" element={<Docks />}></Route>
           <Route path="/samplerewind" element={<SampleRewind />}></Route>
           <Route path="/tools" element={<Tools />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
       </Routes>
     </div>
   );

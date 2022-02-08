@@ -18,13 +18,14 @@ export default function Work() {
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                                 </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <Link to="/nightly"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1639065930/LANding_tnssbl.jpg" class="d-block w-100" alt="NIGHTLY"/></Link>
+                            <Link to="/nightly"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1644334692/Pasted_Graphic_oswg85.png" class="d-block w-100" alt="NIGHTLY"/></Link>
                         <div class="carousel-caption d-none d-md-block">
                             <h5 style={{color: "white", "font-family": 'Bakbak One'}}>Nightly</h5>
-                            <p style={{color: "white", "font-family": 'Bakbak One'}}>Open Source application that encourages users to share sleep/mediation advice</p>
+                            <p style={{color: "white", "font-family": 'Bakbak One'}}>Feature filled blog application that allows users to find community-sourced resources that promote effective sleeping habits</p>
                         </div>
                         </div>
                         <div class="carousel-item">
@@ -41,6 +42,13 @@ export default function Work() {
                             <p style={{"font-family": 'Bakbak One'}}>An application that allows users to type in their favorite artists and see a carousel of all of their most recent albums.</p>
                                 </div>
                                 </div>
+                        <div class="carousel-item">
+                            <Link to="/portfolio"><img src="https://res.cloudinary.com/ddid7dngp/image/upload/v1643402932/Portfolio_assets_sumjmd.jpg" class="d-block w-100" alt="RECENT RECORDS"/></Link>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style={{"font-family": 'Bakbak One'}}>Portfolio</h5>
+                            <p style={{"font-family": 'Bakbak One'}}>Dylan's Resume</p>
+                                </div>
+                                </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,6 +60,7 @@ export default function Work() {
                             </button>
                             </div>
                             </div>
+                            
                         </div>
                         {/* <Link to="/colab"><button>Co-Lab</button></Link> */}
                         {/* <div className="portal">

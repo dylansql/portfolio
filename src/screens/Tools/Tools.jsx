@@ -23,6 +23,7 @@ export default function Tools() {
                         <li>Tailwind Library</li>
                         <li>Bootstrap</li>
                         <li>Express.js</li>
+                        <li>Socket.io</li>
                     </ul>
                 </div>
                 <div className="languages">
